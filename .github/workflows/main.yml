@@ -1,13 +1,13 @@
-name: Main Kittygram Workflow
+name: Main kittygram workflow
 
 on:
   push:
     branches:
       - main
+
 jobs:
   tests:
     runs-on: ubuntu-latest
-
     steps:
     - name: Check out code
       uses: actions/checkout@v3
