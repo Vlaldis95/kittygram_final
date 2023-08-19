@@ -9,7 +9,7 @@ SECRET_KEY = get_random_secret_key()
 
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['158.160.3.79','127.0.0.1','localhost','kittygrams.ddns.net']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
