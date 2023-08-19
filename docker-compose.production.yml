@@ -15,7 +15,7 @@ services:
     image: vlaldis95/kittygram_backend
     env_file: .env.example
     volumes:
-      - static:/backend_static
+      - static:/static
       - media:/app/media/
   frontend:
     image: vlaldis95/kittygram_frontend
